@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+#person:
+#  lastName: hao
+#  age: 25
+#  boss: false
+#  birth: 1994/08/10
+#  maps: {k1:v1, k2:2}
+#  list:
+#    - ruoyan
+#    - ruoyu
+#  dog:
+#    name: jiji
+#    age: 1

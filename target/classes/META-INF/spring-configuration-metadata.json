@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "haoli94.entity.Dog",
+      "sourceType": "haoli94.entity.Dog"
+    },
+    {
+      "name": "person",
+      "type": "haoli94.entity.Person",
+      "sourceType": "haoli94.entity.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "haoli94.entity.Dog"
+    },
+    {
+      "name": "dog.name",
+      "type": "java.lang.String",
+      "sourceType": "haoli94.entity.Dog"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "haoli94.entity.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "haoli94.entity.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "haoli94.entity.Person",
+      "defaultValue": false
+    },
+    {
+      "name": "person.dog",
+      "type": "haoli94.entity.Dog",
+      "sourceType": "haoli94.entity.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "haoli94.entity.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "haoli94.entity.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "haoli94.entity.Person"
+    }
+  ],
+  "hints": []
+}

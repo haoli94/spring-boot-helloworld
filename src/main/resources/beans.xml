@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloService" class="haoli94.service.HelloService"></bean>
+    <!--  springboot不能扫描配置的bean, 需要一个component scan  -->
+    <!--  Spring Boot里面没有Spring的配置文件, 我们自己编写的配置文件也不能自动识别  -->
+    <!--  加载要用ImportResource注解  -->
+    <!--  Springboot推荐全注解方式  -->
+</beans>
